@@ -1,3 +1,30 @@
 .comments__content-title {
-  margin: 0 auto;
+  margin: 0 auto 1.2rem;
+}
+
+@media screen and (min-width: 375px) {
+  .comments__content-title {
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .comments__content-title {
+    margin-bottom: 1.95rem;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  .comments__content-title {
+    line-height: 0.9027em;
+    margin-bottom: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .comments__content-title {
+    line-height: 1.0833em;
+    margin-bottom: 2.8rem;
+  }
 }

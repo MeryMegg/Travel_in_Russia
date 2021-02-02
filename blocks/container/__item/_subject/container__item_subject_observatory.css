@@ -1,37 +1,9 @@
 .container__item_subject_observatory {
-  width: 583px;
-  height: 323px;
-  border-radius: 5px;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../../../images/observatory.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-decoration: none;
-  display: grid;
-  align-content: space-between;
-  position: relative;
+  border-radius: 5px;
 }
 
-.container__item_subject_observatory::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-.container__item_subject_observatory:hover::before {
-  opacity: 0.5;
-}
-
-.container__item_subject_observatory:hover .container__info {
-  z-index: 1;
-}
-
-.container__item_subject_observatory:hover .container__icon_type_play {
-  z-index: 1;
+.container__item_subject_observatory:hover {
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../../../images/observatory.jpg);
+  border-radius: 5px;
 }

@@ -1,0 +1,21 @@
+.places__article {
+  margin: 0 auto 3.4rem;
+}
+
+@media screen and (min-width: 375px) {
+  .places__article {
+    margin-bottom: 3.3rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+   .places__article {
+     margin-bottom: 4.785rem;
+   }
+}
+
+@media screen and (min-width: 900px) {
+   .places__article {
+     margin-bottom: 5.67rem;
+   }
+}

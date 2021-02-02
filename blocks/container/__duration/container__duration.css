@@ -1,8 +1,8 @@
 .container__duration {
   font-weight: 500;
-  font-size: 12px;
-  line-height: 13px;
+  font-size: 0.75rem;
+  line-height: 1.0833;
   letter-spacing: 0.3em;
   text-decoration: none;
-  margin: 0;
+  margin: 12px 0 0.5rem;
 }

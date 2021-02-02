@@ -1,5 +1,17 @@
 @import url("_otherness/article__item_otherness_align-end.css");
 
+.article__item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
 .article__item :last-child {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .article__item {
+    padding: 0;
+  }
 }
