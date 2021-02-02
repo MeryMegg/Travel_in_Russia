@@ -1,0 +1,27 @@
+@import url('__author/footer__author.css');
+@import url('__menu/footer__menu.css');
+
+.footer {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+  /*
+  width: 1184px; */
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,10 @@
+.container__info {
+  width: 100%;
+  color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+  .container__info {
+    max-width: 322px;
+  }
+}

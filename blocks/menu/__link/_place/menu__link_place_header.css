@@ -1,0 +1,12 @@
+.menu__link_place_header {
+  font-size: 1.13rem;
+  line-height: 0.95em;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  .menu__link_place_header {
+    font-size: 1.5rem;
+    line-height: 0.9583em;
+  }
+}

@@ -1,0 +1,32 @@
+@import url('__logo/header__logo.css');
+@import url('__menu/header__menu.css');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'Inter', Arial, sans-serif;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
+
+@media screen and (min-width: 600px) {
+  .header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    max-width: 1184px;
+  }
+}

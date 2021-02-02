@@ -1,0 +1,13 @@
+.blockquote__author {
+  font-weight: 900;
+  font-size: 0.875rem;
+  line-height: 1.5715;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .blockquote__author {
+    margin: 0;
+  }
+}

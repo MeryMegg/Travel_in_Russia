@@ -1,0 +1,31 @@
+.intro__quote-text {
+  width: 100%;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6875em;
+  margin: 0 0 2.45rem 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .intro__quote-text {
+    font-size: 0.87rem;
+    line-height: 1.7em;
+    margin-bottom: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .intro__quote-text {
+    max-width: 692px;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .intro__quote-text {
+    max-width: 688px;
+    padding-right: 0;
+    margin-bottom: 1.1rem;
+  }
+}

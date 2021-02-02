@@ -1,0 +1,21 @@
+.comments__content-subtitle {
+  margin: 0 auto 2.325rem;
+}
+
+@media screen and (min-width: 375px) {
+  .comments__content-subtitle {
+    margin-bottom: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .comments__content-subtitle {
+    margin-bottom: 4.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .comments__content-subtitle {
+    margin-bottom: 3.8rem;
+  }
+}

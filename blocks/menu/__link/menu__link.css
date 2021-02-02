@@ -1,0 +1,7 @@
+@import url('_place/menu__link_place_header.css');
+@import url('_place/menu__link_place_footer.css');
+@import url('_underline/menu__link_underline.css');
+
+.menu__link {
+  color: #fff;
+}

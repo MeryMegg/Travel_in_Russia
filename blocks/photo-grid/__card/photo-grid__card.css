@@ -1,0 +1,30 @@
+.photo-grid__card {
+  width: 100%;
+  height: auto;
+  min-height: 192px;
+
+}
+
+@media screen and (min-width: 375px) {
+  .photo-grid__card {
+    min-height: 232px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ptoto-grid__card {
+    min-height: 234px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .photo-grid__card {
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .photo-grid__card {
+    min-height: 188px;
+  }
+}

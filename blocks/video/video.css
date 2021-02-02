@@ -1,0 +1,29 @@
+@import url('__content-title/video__content-title.css');
+@import url('__content-subtitle/video__content-subtitle.css');
+@import url('__container/video__container.css');
+
+.video {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 100%;
+  padding: 2.4rem 1rem 2.05rem;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .video {
+    padding: 3.1875rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .video {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .video {
+    max-width: 1184px;
+  }
+}

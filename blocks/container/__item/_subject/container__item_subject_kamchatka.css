@@ -1,0 +1,9 @@
+.container__item_subject_kamchatka {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../../../images/kamchatka.jpg);
+  border-radius: 5px;
+}
+
+.container__item_subject_kamchatka:hover {
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../../../images/kamchatka.jpg);
+  border-radius: 5px;
+}
