@@ -1,9 +1,0 @@
-.article__item_otherness_align-end {
-  align-self: flex-end;
-}
-
-@media screen and (max-width: 767px) {
-  .article__item_otherness_align-end {
-    display: none;
-  }
-}
