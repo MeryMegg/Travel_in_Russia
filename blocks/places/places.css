@@ -1,0 +1,32 @@
+@import url('__article/places__article.css');
+
+.places {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 100%;
+  max-width: 984px;
+  padding-top: 1.9rem;
+  padding-bottom: 2.2rem;
+  box-sizing: border-box;
+}
+
+.places :last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .places {
+    padding: 3.475rem 1.5rem 2.3rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .places {
+    padding: 3.2rem 0 3.8rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .places {
+    padding-top: 3.6rem;
+  }
+}

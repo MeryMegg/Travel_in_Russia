@@ -1,7 +1,14 @@
 .footer__author {
   margin: 0;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.4285em;
   align-self: flex-end;
+  margin-bottom: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__author {
+    margin-bottom: 0.15rem;
+  }
 }

@@ -3,6 +3,16 @@
 
 .blockquote {
   font-family: 'Inter', Arial, sans-serif;
-  width: 382px;
+  width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  /* width: 382px;
+  margin: 0; */
+}
+
+@media screen and (min-width: 1024px) {
+  .blockquote {
+    flex-direction: column;
+  }
 }

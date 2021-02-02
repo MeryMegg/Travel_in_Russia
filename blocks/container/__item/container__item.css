@@ -1,12 +1,56 @@
 @import url('_subject/container__item_subject_kamchatka.css');
 @import url('_subject/container__item_subject_observatory.css');
-@import url('_subject/container__item_subject_novorossiysk-bay.css');
-@import url('_subject/container__item_subject_arakulsk-shihan.css');
-@import url('_subject/container__item_subject_cherepovets.css');
-@import url('_subject/container__item_subject_nikola-lenivets.css');
 
 .container__item {
-  padding-bottom: 30px;
-  padding-top: 30px;
   box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  min-height: 192px;
+  padding: 1rem;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  display: grid;
+  align-content: space-between;
+  position: relative;
+
+}
+
+@media screen and (min-width: 375px) {
+  .container__item {
+    min-height: 200px;
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .container__item {
+    min-height: 236px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container__item {
+    min-height: 276px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container__item {
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container__item {
+    min-height: 288px;
+    padding: 1.875rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container__item {
+    min-height: 323px;
+  }
 }

@@ -1,3 +1,21 @@
 .video__content-subtitle {
-  margin: 48px auto 72px;
+  margin: 0 auto 1.7rem;
+}
+
+@media screen and (min-width: 600px) {
+  .video__content-subtitle {
+    margin-bottom: 3.05rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .video__content-subtitle {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .video__content-subtitle {
+    margin-bottom: 4rem;
+  }
 }
