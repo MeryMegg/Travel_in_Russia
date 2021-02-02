@@ -1,0 +1,4 @@
+.video__container {
+  margin: 0 auto;
+  grid-column-gap: 18px;
+}

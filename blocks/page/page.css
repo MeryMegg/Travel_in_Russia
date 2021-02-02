@@ -1,0 +1,10 @@
+.page {
+  min-width: 1280px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 43px;
+}

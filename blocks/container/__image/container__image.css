@@ -1,0 +1,6 @@
+@import url('_size/container__image_size_l.css');
+@import url('_size/container__image_size_s.css');
+
+.container__image {
+  justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.place {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 984px;
+  margin: 0 auto 102px;
+}
+
+.place :last-child {
+  margin-bottom: 0;
+}

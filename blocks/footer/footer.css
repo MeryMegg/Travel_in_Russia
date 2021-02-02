@@ -1,0 +1,9 @@
+@import url('__author/footer__author.css');
+
+.footer {
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 1184px;
+  margin: 0 auto;
+}

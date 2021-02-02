@@ -1,0 +1,13 @@
+.container__item_subject_arakulsk-shihan {
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+  width: 284px;
+  height: 330px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../../../images/shickan.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+}

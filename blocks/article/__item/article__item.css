@@ -1,0 +1,5 @@
+@import url("_otherness/article__item_otherness_align-end.css");
+
+.article__item :last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,36 @@
+.container__item_subject_kamchatka {
+  width: 583px;
+  height: 323px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../../../images/kamchatka.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  display: grid;
+  align-content: space-between;
+  position: relative;
+}
+
+.container__item_subject_kamchatka::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.container__item_subject_kamchatka:hover::before {
+  opacity: 0.5;
+}
+
+.container__item_subject_kamchatka:hover .container__info {
+  z-index: 1;
+}
+
+.container__item_subject_kamchatka:hover .container__icon_type_play {
+  z-index: 1;
+}

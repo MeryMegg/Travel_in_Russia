@@ -1,0 +1,8 @@
+@import url('__author/blockquote__author.css');
+@import url('__quote/blockquote__quote.css');
+
+.blockquote {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 382px;
+  margin: 0;
+}

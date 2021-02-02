@@ -1,0 +1,15 @@
+@import url('__image/article__image.css');
+@import url('__item/article__item.css');
+@import url('__paragraph/article__paragraph.css');
+@import url('__title/article__title.css');
+@import url('__link/article__link.css');
+@import url('__url-heading/article__url-heading.css');
+
+.article {
+  font-family: 'Inter', Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-column-gap: 40px;
+  grid-row-gap: 60px;
+  margin-bottom: 72px;
+}

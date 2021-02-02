@@ -1,0 +1,16 @@
+@import url('__quote/intro__quote.css');
+@import url('__text/intro__text.css');
+@import url('__quote-author/intro__quote-author.css');
+@import url('__quote-time/intro__quote-time.css');
+@import url('__quote-text/intro__quote-text.css');
+@import url('__title/intro__title.css');
+@import url('__subtitle/intro__subtitle.css');
+@import url('__quote-footer/intro__quote-footer.css');
+@import url('__span-accent/intro__span-accent.css');
+@import url('__item/intro__item.css');
+
+.intro {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 984px;
+  margin: 80px auto 92px;
+}

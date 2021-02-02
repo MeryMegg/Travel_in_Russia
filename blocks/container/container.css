@@ -1,0 +1,17 @@
+@import url('__item/container__item.css');
+@import url('__icon/container__icon.css');
+@import url('__info/container__info.css');
+@import url('__duration/container__duration.css');
+@import url('__title/container__title.css');
+@import url('__subtitle/container__subtitle.css');
+@import url('__heading/container__heading.css');
+@import url('__text/container__text.css');
+@import url('__blockquote/container__blockquote.css');
+@import url('__image/container__image.css');
+
+.container {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}

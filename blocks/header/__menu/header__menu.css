@@ -1,0 +1,11 @@
+.header__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 7px;
+}
+
+.header__manu :last-child {
+  margin-right: 0;
+}

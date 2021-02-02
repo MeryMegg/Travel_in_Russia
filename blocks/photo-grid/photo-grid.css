@@ -1,0 +1,9 @@
+@import url('__card/photo-grid__card.css');
+
+.photo-grid {
+  display: grid;
+  margin: 92px 0;
+  justify-content: center;
+  grid-template-columns: repeat(4, min-content);
+  grid-gap: 16px;
+}

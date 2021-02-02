@@ -1,0 +1,14 @@
+.container__item_subject_nikola-lenivets {
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+  width: 284px;
+  height: 330px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../images/nikola.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+
+}
